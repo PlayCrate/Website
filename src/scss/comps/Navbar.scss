@@ -2,7 +2,7 @@ $color-orange: #fda048;
 $color-white: rgb(243 245 247);
 
 nav {
-    background-color: $color-white;
+    background-color: #2B2B2B;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
@@ -109,7 +109,7 @@ img.official-logo {
     width: 100%;
     background-color: rgba(243, 245, 247, 0.35);
     backdrop-filter: blur(10px);
-    z-index: 1;
+    z-index: 9999;
     text-align: center;
     padding: 20px 0;
     list-style: none;
